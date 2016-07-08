@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="300.0dp"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/btnTomarFoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto" />
+    <Button
+        android:id="@+id/btnSeleccionarFoto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Foto" />
+    <TextView
+        android:id="@+id/txvResultado"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+    <ImageView
+        android:id="@+id/imgCanvas"
+        android:layout_width="900.0dp"
+        android:layout_height="600.0dp"
+        android:adjustViewBounds="true" />
+</LinearLayout>
